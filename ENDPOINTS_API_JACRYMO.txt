@@ -1,0 +1,94 @@
+ENDPOINTS DE LA API REST – JACRYMO
+
+Proyecto: JACRYMO – Sistema de Gestión de Ventas y Control de Inventario
+
+Evidencia: GA7-220501096-AA5-EV04
+
+Aprendiz: Yohny Fernando Cabezas Guzmán
+
+Ficha: 3336134
+
+Servidor local: http://localhost:3000
+
+1. VERIFICACIÓN DE LA API
+
+Método: GET
+Endpoint: http://localhost:3000/
+Descripción: Comprueba que la API esté funcionando correctamente.
+
+2. PRODUCTOS
+
+Método: GET
+Endpoint: http://localhost:3000/api/productos
+Descripción: Consulta la lista de productos registrados.
+
+Método: GET
+Endpoint: http://localhost:3000/api/productos/:id
+Descripción: Consulta un producto específico por su identificador.
+
+Método: POST
+Endpoint: http://localhost:3000/api/productos
+Descripción: Registra un producto nuevo.
+Cuerpo JSON de ejemplo:
+{
+  "nombre": "Tenis casuales JACRYMO",
+  "precio": 150000,
+  "cantidadInventario": 12
+}
+
+Método: PUT
+Endpoint: http://localhost:3000/api/productos/:id
+Descripción: Actualiza la información de un producto.
+
+Método: DELETE
+Endpoint: http://localhost:3000/api/productos/:id
+Descripción: Elimina un producto por su identificador.
+
+3. CLIENTES
+
+Método: GET
+Endpoint: http://localhost:3000/api/clientes
+Descripción: Consulta los clientes registrados.
+
+Método: POST
+Endpoint: http://localhost:3000/api/clientes
+Descripción: Registra un cliente nuevo.
+Cuerpo JSON de ejemplo:
+{
+  "nombre": "María Rodríguez",
+  "correo": "maria.rodriguez@example.com",
+  "telefono": "3107654321"
+}
+
+4. INVENTARIO
+
+Método: GET
+Endpoint: http://localhost:3000/api/inventario
+Descripción: Consulta las cantidades disponibles en inventario.
+
+Método: PATCH
+Endpoint: http://localhost:3000/api/inventario/:id
+Descripción: Actualiza la cantidad de inventario de un producto.
+Cuerpo JSON de ejemplo:
+{
+  "cantidad": 10
+}
+
+5. VENTAS
+
+Método: GET
+Endpoint: http://localhost:3000/api/ventas
+Descripción: Consulta las ventas registradas.
+
+Método: POST
+Endpoint: http://localhost:3000/api/ventas
+Descripción: Registra una venta y descuenta del inventario las unidades vendidas.
+Cuerpo JSON de ejemplo:
+{
+  "productoId": 1,
+  "cantidad": 2
+}
+
+NOTA
+
+Para realizar las pruebas, el servidor debe estar ejecutándose mediante Node.js. Las direcciones con :id representan el identificador del producto o recurso que se desea consultar, actualizar o eliminar.

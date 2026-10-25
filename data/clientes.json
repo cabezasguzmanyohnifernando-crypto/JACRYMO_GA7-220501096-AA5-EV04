@@ -4,5 +4,11 @@
     "nombre": "Juan Pérez",
     "correo": "juan.perez@example.com",
     "telefono": "3001234567"
+  },
+  {
+    "id": 2,
+    "nombre": "María Rodríguez",
+    "correo": "maria.rodriguez@example.com",
+    "telefono": "3107654321"
   }
 ]

@@ -7,5 +7,14 @@
     "precioUnitario": 200000,
     "total": 400000,
     "fecha": "2026-10-22T18:01:05.102Z"
+  },
+  {
+    "id": 2,
+    "productoId": 1,
+    "nombreProducto": "Zapatos deportivos JACRYMO Premium",
+    "cantidad": 2,
+    "precioUnitario": 200000,
+    "total": 400000,
+    "fecha": "2026-10-25T16:49:18.633Z"
   }
 ]

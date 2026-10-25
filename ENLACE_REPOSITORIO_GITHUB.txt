@@ -1,5 +1,8 @@
-Repositorio GitHub del proyecto JACRYMO - API REST
+ENLACE DEL REPOSITORIO DE GITHUB – JACRYMO
 
+Evidencia actual: GA7-220501096-AA5-EV04
+
+Repositorio de la evidencia anterior (GA7-220501096-AA5-EV03):
 https://github.com/cabezasguzmanyohnifernando-crypto/JACRYMO_GA7-220501096-AA5-EV03
 
-Evidencia: GA7-220501096-AA5-EV03. Diseño y desarrollo de servicios web - proyecto.
+Nota: Este enlace corresponde al repositorio de la evidencia anterior. Está pendiente verificar y publicar, si es necesario, la versión correspondiente a la evidencia GA7-220501096-AA5-EV04.
