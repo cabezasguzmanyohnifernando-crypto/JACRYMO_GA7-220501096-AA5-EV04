@@ -1,8 +1,10 @@
 ENLACE DEL REPOSITORIO DE GITHUB – JACRYMO
 
-Evidencia actual: GA7-220501096-AA5-EV04
+Evidencia: GA7-220501096-AA5-EV04
 
-Repositorio de la evidencia anterior (GA7-220501096-AA5-EV03):
-https://github.com/cabezasguzmanyohnifernando-crypto/JACRYMO_GA7-220501096-AA5-EV03
+Repositorio de GitHub:
+https://github.com/cabezasguzmanyohnifernando-crypto/JACRYMO_GA7-220501096-AA5-EV04
 
-Nota: Este enlace corresponde al repositorio de la evidencia anterior. Está pendiente verificar y publicar, si es necesario, la versión correspondiente a la evidencia GA7-220501096-AA5-EV04.
+Proyecto: API REST del Sistema de Gestión de Ventas y Control de Inventario JACRYMO.
+
+El repositorio contiene el código del proyecto, las capturas de las pruebas realizadas en Postman, la documentación de pruebas y el archivo de endpoints.
